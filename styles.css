@@ -1,0 +1,23 @@
+body {
+  background-image: url("https://th.bing.com/th/id/R.ea4b4096a81f31cfc4e7639712d86644?rik=8dpGMqyTpbYAEg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-WsHWF6lTC1g%2fTlgHped9WpI%2fAAAAAAAAMqY%2fJIYeZxjX0wg%2fs640%2fawesome_classic_movie_gifs_02.gif&ehk=ifT9H4RL0Mhe5XXYVRXIw7rjHiC%2bTu4OMDd9u6ZD%2bhM%3d&risl=&pid=ImgRaw&r=0");
+  min-height: 100vh;
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #238b09;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
